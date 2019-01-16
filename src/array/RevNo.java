@@ -12,9 +12,10 @@ public class RevNo {
 			revNo=revNo*10;
 			revNo=revNo+num%10;
 			num=num/10;
+		sc.close();
 		}
 		System.out.println(revNo);
 	}
-	
+
 
 }

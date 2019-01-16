@@ -1,5 +1,4 @@
 package ProgConst;
-import java.io.*;
 
 
 public class parametarizedConstruct 

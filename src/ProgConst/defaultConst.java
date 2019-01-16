@@ -1,19 +1,23 @@
 package ProgConst;
-import java.io.*;
 
 
 public class defaultConst 
 { 
-    int num; 
+    int No; 
     String name="nisum"; 
-  } 
+    defaultConst() {
+    	System.out.println("default method");
+	}
   
-class def
+  
+static class def
 { 
     public static void main (String[] args) 
     { 
     	defaultConst m = new defaultConst(); 
         System.out.println(m.name); 
-        System.out.println(m.num); 
+        System.out.println(m.No); 
+        
     } 
 } 
+}
