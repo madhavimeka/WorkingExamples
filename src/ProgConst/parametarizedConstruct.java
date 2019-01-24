@@ -1,4 +1,4 @@
-package ProgConst;
+package progConst;
 
 
 public class parametarizedConstruct 
